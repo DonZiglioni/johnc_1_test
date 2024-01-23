@@ -1,0 +1,26 @@
+.game-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    background-color: cadetblue;
+    color: white;
+    margin-top: 10em;
+}
+
+.game-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-slot {
+    height: auto;
+    min-width: 3.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 2px solid black; */
+}
